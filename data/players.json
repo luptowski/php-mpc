@@ -1,0 +1,28 @@
+[
+    {
+        "fullName": "Kamil Grosicki",
+        "games" : [
+            {
+                "date": "2025-01-01",
+                "opponent": "Legia Warsaw",
+                "goals": 1,
+                "assists": 0,
+                "yellowCards": 0
+            },
+            {
+                "date": "2025-02-01",
+                "opponent": "Radomiak Radom",
+                "goals": 0,
+                "assists": 0,
+                "yellowCards": 0
+            },
+            {
+                "date": "2025-03-01",
+                "opponent": "Wisła Kraków",
+                "goals": 3,
+                "assists": 0,
+                "yellowCards": 0
+            }
+        ]
+    }
+]
