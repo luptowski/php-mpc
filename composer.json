@@ -1,0 +1,21 @@
+{
+    "name": "luptowski/php-mpc",
+    "autoload": {
+        "psr-4": {
+            "Luptowski\\PhpMpc\\": "src/"
+        }
+    },
+    "require": {
+        "php-mcp/server": "^3.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.87"
+    },
+    "scripts": {
+        "stan": "phpstan analyse src/",
+        "lint:check": "php-cs-fixer check src/",
+        "lint:fix": "php-cs-fixer fix src/",
+        "mcp-server": "php mcp-server.php"
+    }
+}
